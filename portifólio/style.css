@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    margin-top: 150px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+h1{
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 75px;
+    font-size: 60px;
+    color: #38b6ff;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;  
+    justify-content: space-between;
+}
+
+.titulo-destaque{
+    color: #fff;
+}
+
+.apresentacao-conteudo{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.apresentacao-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transition: 0.3s;
+}
+.apresentacao-links-link{
+    margin-top: 20px;
+    width: 500px;
+    background-color: #0cc0df;
+    padding: 14PX;
+    text-align: center;
+    border-radius: 90px;
+    color: #000;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.apresentacao-links-link:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    
+}
+
+.imagem{
+
+    border-radius: 20px;
+    margin-left: 75px;
+     width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
